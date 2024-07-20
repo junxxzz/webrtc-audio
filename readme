@@ -1,0 +1,6 @@
+npm init
+npm install --save express
+npm install --save peerjs
+npm install -g peer
+npm start
+peerjs --port 443 --key peerjs --path /myapp
