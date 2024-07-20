@@ -7,9 +7,9 @@ const peer = new Peer(
     },
 );
 window.peer = peer;
-// peer.on("open", () => {
-//     showCallContent();
-// });
+peer.on("open", () => {
+    showCallContent();
+});
 peer.on("connection", (connection) => {
     conn = connection;
 });
